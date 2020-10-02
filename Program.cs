@@ -45,9 +45,39 @@ namespace TextAdventure
                         Console.WriteLine("press enter to continue");
                         Console.ReadLine();
                         gameOver();
-
+                        break;
                         
                     }
+                case "2":
+                case "cry":
+                    {
+                        Console.WriteLine("");
+                        Console.WriteLine("");
+                        Console.WriteLine("Press Enter to continue");
+                        Console.ReadLine();
+                        second();
+                        break;
+                    }
+                case "3":
+                case "pee":
+                case "pee a little":
+                    {
+                        Console.WriteLine("");
+                        Console.WriteLine("");
+                        Console.WriteLine("Press Enter to continue");
+                        Console.ReadLine();
+                        second();
+                        break;
+                    }
+                default:
+                    {
+                        Console.WriteLine("I don't understand your command");
+                        Console.WriteLine("Press enter to try again");
+                        Console.ReadLine();
+                        first();
+                        break;
+                    }
+
             }
         }
         public static void second()
