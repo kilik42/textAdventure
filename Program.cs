@@ -6,12 +6,18 @@ namespace TextAdventure
     {
         static void Main(string[] args)
         {
-            
+            gameTitle();
+            //then jump right in
+            first();
         }
 
         public static void gameTitle()
         {
-
+            Console.WriteLine("Welcome to my game");
+            Console.WriteLine("Press Enter to begin");
+            Console.ReadLine();
+            Console.Clear();
+            first();
         }
         public static void first()
         {
